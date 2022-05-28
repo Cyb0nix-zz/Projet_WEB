@@ -12,97 +12,164 @@
   <body>
 
     <header>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <div class="topnav" id="myTopnav">
-          <img class="logo" src="./images/Logos/Logo_Toudoum-08.png" alt="">
-          <a href="#home" class="active">Home</a>
-          <a href="#about">Evènements</a>
-          <a href="#news">VOD</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">A Propos</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+      <nav class="menu-container">
+        <input type="checkbox" aria-label="Toggle menu" />
+        <span></span>
+        <span></span>
+        <span></span>
+      
+        <a href="#" class="menu-logo">
+          <img src="./images/Logos/Logo_Toudoum-08.png" alt="Toudoom"/>
+        </a>
+      
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#home" style="color: #ec135c;">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="./evenements.html">
+                Evènements
+              </a>
+            </li>
+            <li>
+              <a href="#blog">
+                VOD
+              </a>
+            </li>
+            <li>
+              <a href="#docs">
+                Contact
+              </a>
+            </li>
+          </ul>
+          <ul>
+          </ul>
         </div>
+      </nav>
 
     </header>
 
-    <div class="player">
-      <iframe src="https://www.youtube.com/embed/-lXaAgf7f8I?start=0&autoplay=1&loop=1&modestbranding=1&rel=0&cc_load_policy=1&iv_load_policy=3&fs=0&color=white&controls=0&playlist=-lXaAgf7f8I" width="1280" height="720" frameborder="0"></iframe>
+    <div class="content" style="margin-bottom: 18%; margin-top: 10%;">
+      <img src="./images/Logos/Logo_Toudoum-08.png" style="max-width: 1000px; min-width: 10%; width: 80%;" alt="">
+      <h1>Association de production vidéo de l'Efrei</h1>
     </div>
+
+    <hr>
+
+    <div class="player">
+      <iframe style="position:absolute; top:3%; left:17%;" src="https://www.youtube.com/embed/-lXaAgf7f8I?start=0&autoplay=1&loop=1&modestbranding=1&rel=0&cc_load_policy=1&iv_load_policy=3&fs=0&color=white&controls=0&playlist=-lXaAgf7f8I" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <hr>
 
     <div class="content">
       <div class="wrapper">
-        <div class="two">
-          <h2>Qu'est-ce que Toudoom ?</h2>
-          <p>Outre son nom rappelant une célèbre plateforme de streaming vidéo, cette association vous permettra d'assister en direct à de nombreux événements 
-            efreiens sur le campus et en dehors.Notre équipe s'occupe de réaliser des captations vidéos, des émissions et la diffusion en direct des actualités 
+        <div class="two-right">
+          <h1>Qu'est-ce que Toudoom ?</h1>
+          <p>Outre son nom rappelant une célèbre plateforme de streaming vidéo, Toudoom est l'associaton de production vidéo de l'Efrei, 
+            cette association vous permettra d'assister en direct à de nombreux événements efreiens sur le campus et en dehors. Notre équipe s'occupe de réaliser des captations vidéos, des émissions et la diffusion en direct des actualités 
             de l'école et de la vie étudiante. Avec sa passion pour la vidéo et un matériel audio-visuel semi-professionnel, elle vous proposera un contenu immersif de qualité pour être sûr que vous ne passiez à côté d'aucun moment majeur.</p>
         </div>
-        <div class="one">
-          <img src="./images/Logos/Logo_Toudoum-08.png" style="width:1fr; max-width: 80%;" alt="">
+        <div class="one-right">
+          <img src="./images/Logos/Logo_Toudoum-08.png" style="width:1fr; max-width: 90%; margin-left: -20%;" alt="">
+        </div>
+
+        
+          <div class="two" style="margin-top: 15%;">
+            <img src="./images/photo_BotB2.jpg" style="width:1fr; max-width: 90%;" alt="">
+          </div>
+          <div class="one" style="margin-top: 5%;">
+            <h1>Des captations</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae perferendis animi. Magni obcaecati suscipit adipisci beatae non culpa magnam. Consequuntur a harum fugiat vitae reiciendis beatae nesciunt tempore illo?</p>
+          </div>
+        
+      
+            <div class="two-right" style="grid-row: 3; margin-top: 5%">
+              <h1>Des Régies</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsum maxime architecto odit aperiam. Incidunt corporis minima quos possimus architecto, repellat perferendis debitis saepe voluptate quae quasi harum odit earum! </p>
+    
+              </div>
+            <div class="one-right" style="grid-row: 3; margin-top: 15%;">
+              <img src="./images/EfreiTmCup.jpg" style="width:1fr; max-width: 90%; margin-left: -20%;" alt="">
+            </div>
+      </div>
+
+      <hr>
+
+      <h1 style="text-align:center; margin-bottom: 2%;">Ils nous ont fait confiance</h1>
+
+
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 1.png" height="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 2.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 3.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 4.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 5.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 6.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 1.png" height="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 2.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 3.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 4.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 5.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 6.png" height="250" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Logos/slider/Frame 2.png" height="250" width="250" alt="" />
+          </div>
         </div>
       </div>
-    </div>
-    
 
-    <div class="réseaux">
-        <a href="www.twitch.tv/toudoom_"><img src="" alt="Twitch_Toudoom"></a>
-        <a href="www.instagram.com/toudoom/"><img src="" alt="Instagram_Toudoom"></a>
-        <a href="www.facebook.com/toudoom/"><img src="" alt="Facebook_Toudoom"></a>
-        <a href="https://twitter.com/Toudoom_Efrei"><img src="" alt="Twitter_Toudoom"></a>
-        <a href="https://www.youtube.com/channel/UCCR0Sp9q2ZP4M_BcYbSOMaQ"><img src="" alt="Youtube_Toudoom"></a>
-        <a href="https://fr.linkedin.com/company/toudoom"><img src="" alt="LinkedIn_Toudoom"></a>
-        <a href="https://discord.com/invite/XBXGbx6Eyx"><img src="" alt="Discord_Toudoom"></a>
+
     </div>
 
-    <section>
-      <ul>
-        <li><<strong></strong></a>
-          <ol>
-            <li> 
-              </li>
-          </ol>
-        </li>
+    <footer class="footer-distributed">
 
-          <ol>
-              <li><a href="Réseaux">Année d'expérience</a></li>
-              <li><a href="Espace membre">Membres actifs</a></li>
-              <li><a href="Rediff">Evènements couverts</a></li>
-              <li><a href="Refiff">Emissions produites</a></li>
-          </ol>
+			<div class="footer-right">
 
-        <li><a href="Rediff"><strong>Derniers streams</strong></a></li>
-          <ol>
-            <li>ETC</li>
-          </ol>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
 
-          <li><a href="Calendrier"><strong>Prochains évènements</strong></a></li>
-          <ol>
-            <li>SFA</li>
-            <li>RDD</li>
-            <li>Final Grands Discours</li>
-            <li>Passation SEP</li>
-          </ol>
-    </ul>
-    </section>
+			</div>
 
-    <footer>
-      <div class="réseaux">
-        <a href="www.twitch.tv/toudoom_"><img src="" alt="Twitch_Toudoom"></a>
-        <a href="www.instagram.com/toudoom/"><img src="" alt="Instagram_Toudoom"></a>
-        <a href="www.facebook.com/toudoom/"><img src="" alt="Facebook_Toudoom"></a>
-        <a href="https://twitter.com/Toudoom_Efrei"><img src="" alt="Twitter_Toudoom"></a>
-        <a href="https://www.youtube.com/channel/UCCR0Sp9q2ZP4M_BcYbSOMaQ"><img src="" alt="Youtube_Toudoom"></a>
-        <a href="https://fr.linkedin.com/company/toudoom"><img src="" alt="LinkedIn_Toudoom"></a>
-        <a href="https://discord.com/invite/XBXGbx6Eyx"><img src="" alt="Discord_Toudoom"></a>
-      </div>
-    
-      <a href="espace membre"><p>Espace membres</p></a>
-      <a href="Réseaux"><p>Contact</p></a>
-      <a href="statuts"><p>Mentions légales</p></a>
-    </footer>
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">à Propos</a>
+				</p>
+
+				<p>Toudoom &copy; 2022</p>
+			</div>
+
+		</footer>
 
   </body>
 </html>
