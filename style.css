@@ -5,7 +5,7 @@
 
 body    {
     margin: 0;
-    background-color: #1f1668;
+    background-color: #110c35;
     background-image: url("./images/Backgrounds/background.png");
     background-position: center center;
     background-size:cover;
@@ -304,7 +304,7 @@ p{
 }
 
 .footer-distributed {
-  background-color: #ec135c;
+  background-color: #110c35;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -360,7 +360,7 @@ p{
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #33383b;
+  background-color: #110c35;
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
