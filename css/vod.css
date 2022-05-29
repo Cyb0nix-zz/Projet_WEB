@@ -1,3 +1,4 @@
+/* boites vod */
 .vod-box{
     text-align: center;
     align-content: center;
@@ -49,6 +50,7 @@ a{
  
   }
 
+  /* version responsive boite vod */
   @media screen and (max-width: 767px) {
 
     .wrapper{

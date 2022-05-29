@@ -1,3 +1,4 @@
+/* timeline */
 .timeline {
     white-space: nowrap;
     overflow-x:scroll;
@@ -91,8 +92,7 @@
   }
   
   
-  /* GENERAL MEDIA QUERIES
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ /* version responsive */
   @media screen and (max-width: 767px) {
     .timeline ol,
     .timeline ol li {

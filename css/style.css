@@ -43,6 +43,7 @@ p{
   line-height: 22px;
 }
 
+/* css player youtube */
 .player{
   position: relative;
   padding-bottom: 42.30%;
@@ -52,6 +53,7 @@ p{
   vertical-align: middle;
 }
 
+/* css article */
 .wrapper {
   text-align: left;
   display: grid;
@@ -91,6 +93,8 @@ p{
   align-content: center;
   margin: auto;
 }
+
+/* menu bar */
 
 .menu-container {
   position: relative;
@@ -186,7 +190,7 @@ p{
   font-size: 22px;
 }
 
-
+/* menu bar responsive */
 @media only screen and (max-width: 767px) { 
   .menu-container {
     flex-direction: column;
@@ -225,7 +229,7 @@ p{
   }
 }
 
-/* desktop styles */
+/* version bureau */
 @media only screen and (min-width: 768px) { 
   .menu-container {
     width: 100%;
@@ -268,6 +272,8 @@ p{
     transform: translateX(calc(-250px * 7));
  }
 }
+
+/* slider logos */
 .slider {
   background: transparent;
   height: 100%;
@@ -303,6 +309,7 @@ p{
   width: 100%;
 }
 
+/* footer */
 .footer-distributed {
   background-color: #110c35;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -374,7 +381,7 @@ p{
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 
-/* Media Queries */
+/* footer responsive */
 
 @media (max-width: 600px) {
   .footer-distributed .footer-left, .footer-distributed .footer-right {
