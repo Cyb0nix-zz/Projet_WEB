@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Toudoom";
-    src: url("./images/fonts/TTF/NOMARegular.ttf");
+    src: url("../images/fonts/TTF/NOMARegular.ttf");
 }
 
 body    {
     margin: 0;
     background-color: #110c35;
-    background-image: url("./images/Backgrounds/background.png");
+    background-image: url("../images/Backgrounds/background.png");
     background-position: center center;
     background-size:cover;
     background-attachment: fixed;

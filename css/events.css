@@ -1,6 +1,6 @@
 .timeline {
     white-space: nowrap;
-    overflow-x: hidden;
+    overflow-x:scroll;
   }
   
   .timeline ol {
@@ -93,7 +93,7 @@
   
   /* GENERAL MEDIA QUERIES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  @media screen and (max-width: 599px) {
+  @media screen and (max-width: 767px) {
     .timeline ol,
     .timeline ol li {
       width: auto; 
