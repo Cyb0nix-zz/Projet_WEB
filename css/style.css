@@ -227,7 +227,7 @@ p{
   .menu-container input:checked ~ .menu {
     transform: translateX(-100%);
   }
-}
+} 
 
 /* version bureau */
 @media only screen and (min-width: 768px) { 
